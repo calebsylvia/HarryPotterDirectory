@@ -76,7 +76,7 @@ export default function Home() {
      <div className={`${modal ? '' : 'hidden'} bg-black bg-opacity-75 fixed h-screen w-screen`}>
         <div className="flex justify-center space-x-10 mt-32 mx-12">
             <div className="border-2 border-white rounded-xl min-h-[500px] w-1/4">
-              <Image src={image} alt="Character Image" className="w-full h-full rounded-xl"/>
+              <img src={image} alt="Character Image" className="w-full h-full rounded-xl"/>
             </div>
             <div className="border-2 border-white bg-white rounded-xl min-h-[500x] w-2/3 text-black">
                 <div className="flex justify-between pt-6 pl-7 pr-5">
@@ -134,7 +134,7 @@ export default function Home() {
                   setShown(char.name)
                   setModal(true)
                 }}>
-                    <Image src={char.image} alt="Character Image"/>
+                    <img src={char.image} alt="Character Image"/>
                     <div className="text-white my-auto mx-auto">
                         <p className="font-semibold">{char.name}</p>
                         <p className="text-sm">{char.house}</p>
