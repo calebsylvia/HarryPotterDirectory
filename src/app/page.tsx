@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         </div>
       <nav className="mx-20 flex justify-between">
-        <p className="text-6xl font-bold text-yellow-300 pt-6">Harry's World</p>
+        <p className="text-6xl font-bold text-yellow-300 pt-6">Harry&apos;s World</p>
         <div className="mx-28 flex mt-8 mb-2">
           <div className="bg-white bg-opacity-10 border-white border-2 rounded-xl flex px-3 py-2 hover:cursor-pointer" onClick={handleShuffle}>
             <p className="text-white my-auto">Random Character</p>
